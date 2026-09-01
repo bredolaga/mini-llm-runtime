@@ -64,16 +64,7 @@ Validation
 The C++ implementation was compared numerically against the Hugging Face reference implementation.
 
 Intermediate Transformer block outputs and final logits match the reference implementation within normal FP32 numerical error.
-
-Example:
-
-Prompt: hello
-
-Generated:
-hello, "I'm sorry, I didn't know that."
-Building
-
-Requirements:
+ents:
 
 C++20
 CMake
